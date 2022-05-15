@@ -1,0 +1,115 @@
+.font1 {
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.font2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#sales {
+  color: red;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.font3 {
+  font-family: Verdana;
+}
+
+#course1 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#course2 {
+  opacity: 40%;
+  margin-top: 0px;
+}
+
+#course3 {
+  font-size: 13px;
+}
+
+.font4 {
+  font-family: Arial;
+  margin: 15px;
+}
+
+#shop1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#shop2 {
+  font-weight: 400;
+}
+
+#shop3 {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.add1 {
+  font-family: Arial;
+  margin: 0px;
+}
+#a1 {
+  color: rgb(141, 96, 14);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#a2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#a3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+#a4 {
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+#a5 {
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+  font-size: 15px;
+  font-style: bolder;
+  border: none;
+  padding: 5px 10px;
+}
+
+.add2 {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+#dollar {
+  opacity: 50%;
+  font-size: 20px;
+  font-weight: 400;
+}
+#secondline {
+  color: green;
+  font-size: 15px;
+  font-weight: 400;
+}
+#thirdline {
+  font-weight: 400;
+  opacity: 50%;
+  font-size: 15px;
+}
+#thirdline2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: red;
+}

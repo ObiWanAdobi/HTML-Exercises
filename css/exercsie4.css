@@ -1,0 +1,49 @@
+#basicgreen {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.refs {
+  padding: 5px;
+}
+
+.basic {
+  padding: 10px 8px;
+  cursor: pointer;
+}
+
+.stretch {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.stretch:hover {
+  padding: 20px 40px;
+  transition-duration: 2s;
+}
+
+.shadow {
+  padding: 5px 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.shadow:active {
+  box-shadow: none;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.one,
+.two,
+.three {
+  padding: 5px 10px;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+  padding: 5px 20px;
+  transition-duration: 1s;
+}

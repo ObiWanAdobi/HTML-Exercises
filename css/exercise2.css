@@ -1,0 +1,144 @@
+button{
+    cursor: pointer;
+}
+
+.uber {
+  color: white;
+  border: none;
+  /* padding: 10px; */
+  height: 40px;
+  width: 110px;
+  background-color: black;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber:hover{
+    /* opacity: 50%; */
+    /* transition-delay: 0s;
+    transition-duration: 1s;*/
+    opacity: 0.8;
+} 
+
+.amazon {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.amazon:hover{
+    background-color: rgb(220, 187, 20);
+}
+
+.github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.github:hover{
+    box-shadow: 10px;
+}
+
+.bootstrap1 {
+  color: white;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(121, 82, 179);
+  padding: 10px;
+}
+
+.bootstrap1:hover{
+    background-color: rgb(92, 64, 135);
+}
+
+.bootstrap2 {
+  color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+}
+.bootstrap2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin1 {
+  color: white;
+  border-radius: 15px;
+  background-color: rgb(10, 102, 194);
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+}
+
+.linkedin1:hover{
+    background-color: rgb(35, 27, 124);
+
+}
+
+.linkedin2 {
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.linkedin2:hover{
+    border-width: 2px;
+    background-color: rgba(174, 174, 235, 0.596);
+}
+
+.amazonlink {
+  color: rgb(0, 113, 133);
+}
+.amazonlink:hover {
+  color: rgb(202, 30, 33);
+}
+
+.greentext {
+  color: rgb(0, 118, 0);
+  font-weight: 600;
+}
+
+.cart {
+  background-color: rgb(255, 216, 20);
+}
+.cart:hover {
+  background-color: rgb(189, 170, 75);
+}
+.cart:active {
+  background-color: rgb(104, 86, 0);
+}
+
+.buynow {
+  background-color: rgb(255, 164, 28);
+}
+.buynow:hover {
+  background-color: rgb(181, 155, 115);
+}
+.buynow:active {
+  background-color: rgb(68, 43, 4);
+}
+
+#buttonwithnoborder {
+  border: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
