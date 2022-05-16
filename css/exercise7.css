@@ -1,0 +1,93 @@
+h {
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  margin: 10px 15px;
+}
+
+.cat1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+}
+
+.cat2 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+#textbox1 {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  border-color: bisque;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#textbox2 {
+  font-size: 15px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgb(8, 214, 214);
+  padding: 10px 100px 10px 5px;
+}
+
+#textbox3 {
+}
+.mail {
+  font-family: sans-serif;
+  padding: 10px 170px 0px 0px;
+  margin: 0px 0px 5px 0px;
+  color: rgb(104, 121, 136);
+}
+.text {
+  font-family: sans-serif;
+  color: rgb(104, 121, 136);
+  font-size: 10px;
+}
+
+.button1 {
+  background-color: rgb(65, 65, 228);
+  color: white;
+  padding: 10px 70px;
+  border-radius: 20px;
+  border: none;
+  vertical-align: middle;
+}
+
+.button2 {
+  background-color: rgb(10, 10, 247);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.cattwitter {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  vertical-align: middle;
+  border: none;
+}
+
+.mail2 {
+  font-family: sans-serif;
+  padding: 10px 170px 0px 0px;
+  color: rgb(104, 121, 136);
+  vertical-align: middle;
+}
