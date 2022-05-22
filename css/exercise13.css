@@ -1,0 +1,111 @@
+/* Exercise 2 */
+.flexboxout {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.div1 {
+  background-color: lightcoral;
+  width: 100px;
+}
+.div2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flexboxin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+/* Exercise 2 */
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.orange {
+  width: 100px;
+  background-color: orange;
+}
+.blue {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: blue;
+}
+
+.row1 {
+}
+.flexin {
+  display: flex;
+  flex-direction: row;
+}
+.row2a,
+.row2b {
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.row2a {
+  margin-right: 115px;
+}
+
+/* Challenge 1 */
+.horizontal1 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+}
+.description {
+  padding: 0px;
+  margin: 0px;
+}
+
+.catpic {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.first,
+.second,
+.third {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.second {
+  font-size: 10px;
+  font-weight: bold;
+  padding-bottom: 1px;
+}
+.third {
+  font-size: 7px;
+  color: rgb(84, 87, 87);
+}
+
+.clock {
+  font-size: 7px;
+  color: rgb(84, 87, 87);
+  font-weight: bold;
+}

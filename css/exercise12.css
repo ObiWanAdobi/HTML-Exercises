@@ -1,0 +1,198 @@
+/* Exercise 1: */
+.flexbox1 {
+  display: flex;
+  flex-direction: row;
+}
+.div1 {
+  background-color: lightblue;
+  width: 200px;
+}
+.div2 {
+  background-color: lightcoral;
+  width: 75px;
+}
+
+/* Exercise 2: */
+.flexbox2 {
+  display: flex;
+}
+.div1a {
+  background-color: lightblue;
+  width: 50px;
+}
+.div2a {
+  background-color: lightcoral;
+  width: 75px;
+}
+.flexa {
+  background-color: green;
+  flex: 1;
+}
+
+/* Exercise 3: */
+.flexbox3 {
+  display: flex;
+  display: rows;
+  column-gap: 80px;
+}
+.div1b {
+  background-color: lightblue;
+  flex: 1;
+}
+.div2b {
+  flex: 1;
+  background-color: lightcoral;
+}
+.div3b {
+  flex: 1;
+  background-color: lightcoral;
+}
+.div4b {
+  flex: 1;
+  background-color: lightcoral;
+}
+
+/* Exercise 4: */
+.flexbox4 {
+  display: flex;
+  height: 50px;
+  border-width: 2px;
+  color: black;
+  border: 1px solid black;
+  column-gap: 450px;
+  justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.div1c {
+  background-color: lightblue;
+  padding: 0px;
+  margin: 0px;
+}
+.div2c {
+  background-color: lightcoral;
+}
+
+/* Challenge 1 */
+.upperflexbox5{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+.flexbox5 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    padding: 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.name,
+button{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.name {
+    flex: 1;
+}
+.btn {
+    width: 35px;
+    height: 30px;
+    border-radius: 25px;
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+}
+
+/* Challenge 2 */
+
+.flexbox6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexbox6in{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.picture{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.followbtn{
+    background-color: lightblue;
+    border-width: 0px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.description-name{
+    font-weight: bolder;
+    width: 400px;
+}
+.description-nickname{
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+    margin: 3px 0px;
+}
+.description-undernickname{
+    color: rgb(131, 129, 129);
+    font-size: 10px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;    
+    column-gap: 8px;    
+}
+
+/* Challenge 3 */
+
+.flexbox7{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.home{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 35px;
+}
+.searchbar{
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 5px 100px 5px 10px;
+    flex: 1;
+    min-width: 100px;
+}
+.downloadbtn{
+    margin-left: 70px;
+    width: 70px;
+    color: white;
+    background-color: blueviolet;
+    border-width: 1px;
+    border-color: white;
+    padding: 5px;
+}

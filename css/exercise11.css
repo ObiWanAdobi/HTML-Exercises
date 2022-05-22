@@ -1,0 +1,75 @@
+.style {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+.div1 {
+  background-color: green;
+}
+.div2 {
+  background-color: red;
+}
+
+.style1 {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.div1a {
+  background-color: green;
+}
+.div2a {
+  background-color: red;
+}
+
+.style2 {
+  display: grid;
+  grid-template-columns: 200px 1fr 75px;
+}
+.div1b {
+  background-color: green;
+}
+.div2b {
+  background-color: red;
+}
+.div3b {
+  background-color: green;
+}
+
+.style3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.div1b,
+.div2b,
+.div3b,
+.div4b {
+  background-color: pink;
+  /* margin: 5px 5px; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mutual-friends-row {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+}
+
+.mutual-friends-pic {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.name {
+  margin: 0px;
+}
+
+.btn {
+  margin: 5px;
+}

@@ -1,0 +1,101 @@
+body {
+  height: 1000px;
+}
+
+.sticky {
+  position: fixed;
+  width: 20px;
+  right: 200px;
+  bottom: 10px;
+}
+
+.sidebar {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+.wholescreen:hover {
+  /* background-color: rgba(255, 222, 173, 0); */
+}
+
+/* Challenge Exercise 1 */
+
+.Model {
+  background-color: white;
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.title {
+  font-weight: bold;
+  padding: 5px 5px 10px 0px;
+}
+.description {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Challenge Exercise 2 */
+.header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.headercontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.catname {
+  flex: 1;
+}
+
+.elcato {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.addfriendbtn {
+  background-color: rgba(0, 0, 255, 0.76);
+  color: white;
+  padding: 5px;
+  margin: 0px 5px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.messagebtn {
+  background-color: rgba(128, 128, 128, 0.178);
+  color: black;
+  padding: 5px;
+  margin-right: 50px;
+  margin-left: 4px;
+  border-width: 0px;
+  border-radius: 5px;
+}
